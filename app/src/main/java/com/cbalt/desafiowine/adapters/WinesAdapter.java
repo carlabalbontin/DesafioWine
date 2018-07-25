@@ -37,6 +37,11 @@ public class WinesAdapter extends RecyclerView.Adapter<WinesAdapter.ViewHolder> 
         return wines.size();
     }
 
+    public void addWine(Wine wine){
+        wines.add(wine);
+        notifyDataSetChanged();
+    }
+
     static class ViewHolder extends RecyclerView.ViewHolder {
 
         private TextView wineType;

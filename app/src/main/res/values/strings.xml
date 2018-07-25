@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DesafioWine</string>
+    <string name="new_wine_name">Nombre del vino</string>
+    <string name="new_wine_type">Tipo de vino</string>
+    <string name="new_wine_age">Edad del vino</string>
+    <string name="new_wine_save">Guardar vino</string>
 </resources>
